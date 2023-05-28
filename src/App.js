@@ -1,10 +1,12 @@
-import React from "react";
-import Header from "./Components/Layout/Header";
+import Header from "./Component/Layout/Header";
+import Meals from "./Component/Meals/Meals";
+
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Meals />
+    </>
   );
 }
 
